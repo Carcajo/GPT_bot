@@ -5,35 +5,6 @@ Telegram bot that uses ChatGPT to perform different types of tasks
 ![image](https://user-images.githubusercontent.com/93794796/229308138-cbd58299-db6c-4179-aa7a-4f26beb163da.png)
 
 
-## Features
-- [x] Support markdown in answers
-- [x] Reset conversation with the `/reset` command
-- [x] Typing indicator while generating a response
-- [x] Access can be restricted by specifying a list of allowed users
-- [x] Docker and Proxy support
-- [x] (NEW!) Image generation using DALL·E via the `/image` command
-- [x] (NEW!) Transcribe audio and video messages using Whisper (may require [ffmpeg](https://ffmpeg.org))
-- [x] (NEW!) Automatic conversation summary to avoid excessive token usage (fixes [#34](https://github.com/n3d1117/chatgpt-telegram-bot/issues/34))
-- [x] (NEW!) Group chat support with inline queries 
-  - To use this feature, enable inline queries for your bot in BotFather via the `/setinline` [command](https://core.telegram.org/bots/inline)
-- [x] (NEW!) Track token usage per user - by [@AlexHTW](https://github.com/AlexHTW)
-- [x] (NEW!) Get personal token usage statistics and cost per day/month via the `/stats` command - by [@AlexHTW](https://github.com/AlexHTW)
-- [x] (NEW!) User budgets and guest budgets - by [@AlexHTW](https://github.com/AlexHTW)
-- [x] (NEW!) Stream support
-- [x] (NEW!) GPT-4 support
-  - If you have access to the GPT-4 API, simply change the `OPENAI_MODEL` parameter to `gpt-4`
-
-## Additional features - help needed!
-- [ ] Add session persistence ([#70](https://github.com/n3d1117/chatgpt-telegram-bot/issues/70), [#71](https://github.com/n3d1117/chatgpt-telegram-bot/issues/71))
-
-PRs are always welcome!
-
-## Prerequisites
-- Python 3.9+
-- A [Telegram bot](https://core.telegram.org/bots#6-botfather) and its token (see [tutorial](https://core.telegram.org/bots/tutorial#obtain-your-bot-token))
-- An [OpenAI](https://openai.com) account (see [configuration](#configuration) section)
-
-## Getting started
 
 ### Configuration
 Customize the configuration by copying `.env.example` and renaming it to `.env`, then editing the required parameters as desired:
