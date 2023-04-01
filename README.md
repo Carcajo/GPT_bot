@@ -1,13 +1,9 @@
-# ChatGPT Telegram Bot
-![python-version](https://img.shields.io/badge/python-3.9-blue.svg)
-[![openai-version](https://img.shields.io/badge/openai-0.27.2-orange.svg)](https://openai.com/)
-[![license](https://img.shields.io/badge/License-GPL%202.0-brightgreen.svg)](LICENSE)
-[![Publish Docker image](https://github.com/n3d1117/chatgpt-telegram-bot/actions/workflows/publish.yaml/badge.svg)](https://github.com/n3d1117/chatgpt-telegram-bot/actions/workflows/publish.yaml)
-
-A [Telegram bot](https://core.telegram.org/bots/api) that integrates with OpenAI's _official_ [ChatGPT](https://openai.com/blog/chatgpt/) APIs to provide answers. Ready to use with minimal configuration required.
+Telegram bot that uses ChatGPT to perform different types of tasks
 
 ## Screenshots
-![demo](https://user-images.githubusercontent.com/11541888/225114786-0d639854-b3e1-4214-b49a-e51ce8c40387.png)
+![image](https://user-images.githubusercontent.com/93794796/229308106-190d99df-9a55-4f34-b5af-fbbfaf4ae8c3.png)
+![image](https://user-images.githubusercontent.com/93794796/229308138-cbd58299-db6c-4179-aa7a-4f26beb163da.png)
+
 
 ## Features
 - [x] Support markdown in answers
