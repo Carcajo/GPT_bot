@@ -78,32 +78,8 @@ pip install -r requirements.txt
 python bot/main.py
 ```
 
-#### Using Docker Compose
-
-Run the following command to build and run the Docker image:
-```shell
-docker compose up
-```
-
-#### Ready-to-use Docker images
-You can also use the Docker image from [Docker Hub](https://hub.docker.com/r/n3d1117/chatgpt-telegram-bot):
-```shell
-docker pull n3d1117/chatgpt-telegram-bot:latest
-```
-
-or using the [GitHub Container Registry](https://github.com/n3d1117/chatgpt-telegram-bot/pkgs/container/chatgpt-telegram-bot/):
-
-```shell
-docker pull ghcr.io/n3d1117/chatgpt-telegram-bot:latest
-```
-
 ## Credits
 - [ChatGPT](https://chat.openai.com/chat) from [OpenAI](https://openai.com)
 - [python-telegram-bot](https://python-telegram-bot.org)
 - [jiaaro/pydub](https://github.com/jiaaro/pydub)
 
-## Disclaimer
-This is a personal project and is not affiliated with OpenAI in any way.
-
-## License
-This project is released under the terms of the GPL 2.0 license. For more information, see the [LICENSE](LICENSE) file included in the repository.
